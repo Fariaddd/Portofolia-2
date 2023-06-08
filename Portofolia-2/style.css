@@ -10,43 +10,20 @@
   font-family: sans-serif;
 }
 
-nav{
-  max-width: 100%;
-  background: #0082e6;
-  height: 80px;
-  
-}
-
-.logo{
-  color: white;
-  font-size: 40px;
-  line-height: 80px;
-  padding: 0 100px;
-  cursor: pointer;
-}
-
-
-
-
 .wrapper {
   display: flex;
- 
   align-items: center;
   text-align: center;
   justify-content: center;
-
   border: 2px solid #fff;
   padding: 15px;
   height: 15vh;
-
   background: rgb(35, 41, 82);
 }
 
 .typing-demo {
- 
   width: 99ch;
   animation: typing 2s steps(22), blink .5s step-end infinite alternate;
-  
   overflow: hidden;
   font-family: monospace;
   font-size: 2rem;
